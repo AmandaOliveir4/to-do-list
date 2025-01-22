@@ -99,3 +99,17 @@ body{
 #btn-ok:hover{
     background-color: var(--color-green2);
 }
+@media (max-width: 400px) {
+    #input-new-task {
+        width: calc(100% - 60px); /* Deixa espaço para o botão ao lado */
+    }
+
+    #btn-new-task {
+        width: 50px; /* Garante que o botão mantenha o tamanho */
+        height: 50px;
+    }
+
+    .content--add--item {
+        flex-wrap: nowrap; /* Evita quebra de linha */
+    }
+}
